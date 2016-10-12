@@ -1,0 +1,14 @@
+Log 1 - Sunday, 25 September 2016 
+
+Note: This is a retroactive dev log
+
+Tasks Completed:
+- Gathered to finalize concept of application and to complete Deliverable 1
+  - Clus did the majority of written requirements for the report
+  - Rob did low fidelty mockups for slides
+  
+Individual time spent:
+- Clus: 3 hours
+- Rob: 3 hours
+  
+
