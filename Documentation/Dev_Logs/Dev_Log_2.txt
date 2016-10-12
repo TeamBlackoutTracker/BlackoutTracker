@@ -1,0 +1,18 @@
+Log 2 - Wednesday, 5th October, 2016 
+
+Note: This is a retroactive dev log
+
+Tasks Completed:
+- Decided on the design pattern of our program
+- Decided on the development style of our project (Agile w/ Scrum)
+- Started weekly group meeting
+
+Upcoming Tasks:
+- Start on main menu selection screen for prototype
+- Start on create timeline screen for prototype
+  
+Individual time spent:
+Clus - 3 hours
+Rob - 3 hours
+Jebreiel - 3 hours
+Ryan - 3 hours
