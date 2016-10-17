@@ -8,7 +8,7 @@ Tasks Completed:
 - Setting up Github with everyone
 
 Upcoming Tasks:
-
+- Making creation page for next sprint Oct 16 - Oct 23
   
 Individual time spent:
 Jebreiel - 4 hours
