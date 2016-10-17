@@ -5,6 +5,7 @@ Tasks Completed:
 - Main menu selection screen
 - Create timeline screen
 - Planning for Sprint 2
+- Setting up Github with everyone
 
 Upcoming Tasks:
 
@@ -13,4 +14,5 @@ Individual time spent:
 Jebreiel - 4 hours
 Rob - 1 hour
 Thong Ngo - 1 hour
+Ryan - 1 hour
 
