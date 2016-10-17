@@ -1,0 +1,14 @@
+Log 3 - Sunday, October 16th, 2016 
+
+First Sprint of SCRUM (Oct 5 - Oct 12)
+Tasks Completed:
+- Main menu selection screen
+- Create timeline screen
+- Planning for Sprint 2
+
+Upcoming Tasks:
+
+  
+Individual time spent:
+Jebreiel - 3 hours
+
