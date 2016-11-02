@@ -12,6 +12,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.NumberPicker;
 
+import javax.microedition.khronos.opengles.GL;
+
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
  * status bar and navigation/system bar) with user interaction.
@@ -87,8 +89,6 @@ public class FullscreenActivity extends AppCompatActivity {
         }
     };
 
-   // NumberPicker np = (NumberPicker) findViewById(R.id.numberPicker);
-   // NumberPicker np2 = (NumberPicker) findViewById(R.id.numberPicker2);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -100,12 +100,9 @@ public class FullscreenActivity extends AppCompatActivity {
         mContentView = findViewById(R.id.fullscreen_content);
 
         NumberPicker np = (NumberPicker) findViewById(R.id.numberPicker);
-
         np.setMinValue(1);
         np.setMaxValue(10);
         np.setWrapSelectorWheel(false);
-
-        NumberPicker np2 = (NumberPicker) findViewById(R.id.numberPicker2);
 
         String[] numbers = new String[4];
         numbers[0] = "15";
@@ -113,6 +110,11 @@ public class FullscreenActivity extends AppCompatActivity {
         numbers[2] = "45";
         numbers[3] = "60";
 
+        for(int i=0; i<4; i++){
+            numbers[i] = String.valueOf(15 * (i+1));
+        }
+
+        NumberPicker np2 = (NumberPicker) findViewById(R.id.numberPicker2);
         np2.setMaxValue(numbers.length-1);
         np2.setMinValue(0);
         np2.setDisplayedValues(numbers);
@@ -143,7 +145,12 @@ public class FullscreenActivity extends AppCompatActivity {
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         */
-        //intent.putExtra("duration", np.getValue());
+        //intent.putExtra("history", );
+        NumberPicker np = (NumberPicker) findViewById(R.id.numberPicker);
+        NumberPicker np2 = (NumberPicker) findViewById(R.id.numberPicker2);
+
+        ((Globals) this.getApplication()).setHistory(np.getValue(), 15* (np2.getValue()+1));
+
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         startActivity(intent);
     }

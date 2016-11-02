@@ -9,12 +9,11 @@ import android.support.v7.app.AppCompatActivity;
 public class History {
     Integer duration;
     Integer interval;
-    String media[] = new String[4];
+    //String media[] = new String[4];
 
-    public History(Integer duration, Integer interval, String[] media) {
+    public History(Integer duration, Integer interval) {
         this.duration = duration;
         this.interval = interval;
-        this.media = media;
     }
 
     public Integer getDuration() {
@@ -31,13 +30,5 @@ public class History {
 
     public void setInterval(Integer interval) {
         this.interval = interval;
-    }
-
-    public String[] getMedia() {
-        return media;
-    }
-
-    public void setMedia(String[] media) {
-        this.media = media;
     }
 }
