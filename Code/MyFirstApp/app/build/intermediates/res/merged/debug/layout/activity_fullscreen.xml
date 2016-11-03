@@ -46,18 +46,20 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="53dp">
+            android:layout_height="53dp"
+            android:weightSum="1">
 
             <TextView
                 android:text="@string/description"
                 android:layout_width="318dp"
-                android:layout_height="64dp"
+                android:layout_height="87dp"
                 android:textSize="14sp"
                 android:layout_marginStart="23dp"
                 android:layout_marginLeft="23dp"
                 android:layout_marginTop="10dp"
 
-                android:id="@+id/Info" />
+                android:id="@+id/Info"
+                android:layout_weight="0.26" />
         </LinearLayout>
 
     </LinearLayout>

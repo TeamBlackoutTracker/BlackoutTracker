@@ -25,7 +25,8 @@
             android:label="@string/title_activity_fullscreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
-        <activity android:name=".HistoryActivity"></activity>
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".CaptureMedia"></activity>
     </application>
 
 </manifest>

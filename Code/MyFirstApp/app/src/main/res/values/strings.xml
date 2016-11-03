@@ -33,6 +33,12 @@
     <string name="video_button">Video</string>
     <string name="text_memo_button">Text Memo</string>
     <string name="voice_memo_button">Voice Memo</string>
+    <string name="history_duration">history_duration</string>
+    <string name="remainder">remainder</string>
+    <string name="history_information">History Information</string>
+    <string name="end_history">End History</string>
+    <string name="frequency">frequency</string>
+
 
 
 

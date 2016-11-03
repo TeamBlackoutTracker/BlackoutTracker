@@ -609,7 +609,11 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="duration">Duration:</string>
+    <string name="end_history">End History</string>
+    <string name="frequency">frequency</string>
     <string name="history">History</string>
+    <string name="history_duration">history_duration</string>
+    <string name="history_information">History Information</string>
     <string name="hours">hours</string>
     <string name="interval_frequency">Interval Frequency:</string>
     <string name="media_capture_types">Media Capture Types:</string>
@@ -619,6 +623,7 @@
     <string name="old_">Preview An Existing History</string>
     <string name="picture_button">Picture</string>
     <string name="picture_checkbox">Picture</string>
+    <string name="remainder">remainder</string>
     <string name="search_menu_title">Search</string>
     <string name="setup_history">Setup your new history</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -2120,12 +2125,5 @@
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
         <item name="passwordToggleDrawable">@drawable/design_ic_visibility</item>
         <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
-    </style>
-    <style name="headersPg3" parent="@android:style/TextAppearance.Medium">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">20dp</item>
-        <item name="android:textColor">#545454</item>
-        <item name="android:textSize">18sp</item>
     </style>
 </resources>

@@ -37,46 +37,81 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:weightSum="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12">
 
             <TextView
-                style="@style/headersPg3"
+                android:text="@string/history_information"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#545454"
+                android:textSize="32sp"
                 android:layout_width="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_height="44dp"
+                android:id="@+id/history_information"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:weightSum="1"
+            android:layout_weight="0.14">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#545454"
+                android:textSize="18sp"
+                android:layout_width="89dp"
+                android:layout_marginTop="30dp"
                 android:text="@string/time_duration"
                 android:id="@+id/time_duration"
-                android:layout_weight="0.53"
-                android:layout_height="37dp" />
+                android:layout_height="61dp"
+                android:layout_weight="0.25" />
 
             <TextView
-                android:text="TextView"
-                android:layout_width="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/history_duration"
+                android:layout_marginTop="40dp"
+                android:layout_width="92dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.77"
-                android:elevation="2dp"
-                android:id="@+id/duration" />
+                android:id="@+id/history_duration"
+                android:layout_weight="0.75" />
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:layout_weight="0.25">
 
             <TextView
-                style="@style/headersPg3"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="#545454"
+                android:textSize="18sp"
                 android:text="@string/time_left"
                 android:id="@+id/time_left"
-                android:layout_width="0dp"
-                android:layout_weight="0.58"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.25"
                 android:layout_height="31dp" />
 
             <TextView
-                android:text="TextView"
-                android:layout_width="0dp"
+                android:text="@string/remainder"
+                android:layout_marginTop="35dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.58"
+                android:layout_weight="0.75"
                 android:id="@+id/remainder" />
 
         </LinearLayout>
@@ -85,85 +120,67 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:layout_weight="0.40">
 
             <TextView
-                style="@style/headersPg3"
-                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="#545454"
+                android:textSize="18sp"
+                android:layout_width="82dp"
                 android:text="@string/interval_frequency"
                 android:id="@+id/interval_frequencyP2"
-                android:layout_weight="0.49"
-                android:layout_height="40dp" />
+                android:layout_height="52dp"
+                android:layout_weight="0.25" />
 
             <TextView
-                android:text="TextView"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/frequency"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.90"
+                android:layout_weight="0.75"
                 android:id="@+id/frequency" />
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="54dp">
+            android:layout_height="90dp">
 
             <TextView
-                style="@style/headersPg3"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="35dp"
+                android:textColor="#545454"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_weight="0.10"
                 android:text="@string/next_interval"
                 android:id="@+id/next_interval"
-                android:layout_width="232dp" />
+                android:layout_width="wrap_content" />
 
             <TextView
                 android:text="TextView"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="40dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="0.75"
                 android:id="@+id/nextint" />
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
+        <Button
+            android:text="@string/end_history"
             android:layout_width="match_parent"
-            android:layout_height="46dp">
-
-            <TextView
-                style="@style/headersPg3"
-                android:text="@string/capture_media"
-                android:id="@+id/capture_media" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp">
-
-            <Button
-                android:text="@string/picture_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/picture_button" />
-
-            <Button
-                android:text="@string/video_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/video_button" />
-
-            <Button
-                android:text="@string/text_memo_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/text_memo_button" />
-
-            <Button
-                android:text="@string/voice_memo_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/voice_memo_button" />
-        </LinearLayout>
+            android:layout_height="wrap_content"
+            android:id="@+id/end_history"
+            android:onClick="end_history"/>
 
     </LinearLayout>
 
