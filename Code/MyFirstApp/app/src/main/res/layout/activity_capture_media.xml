@@ -28,28 +28,29 @@
     </LinearLayout>
 
     <Button
-        android:text="Button"
+        android:text="Image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button3"
-        android:layout_weight="0.00" />
+        android:layout_weight="0.00"
+        android:onClick="mediaImage" />
 
     <Button
-        android:text="Button"
+        android:text="Text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button4"
         android:layout_weight="0.00" />
 
     <Button
-        android:text="Button"
+        android:text="Video"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button5"
         android:layout_weight="0.00" />
 
     <Button
-        android:text="Button"
+        android:text="Voice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button6"

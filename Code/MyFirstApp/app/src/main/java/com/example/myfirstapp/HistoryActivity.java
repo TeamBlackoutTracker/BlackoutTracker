@@ -68,6 +68,10 @@ public class HistoryActivity extends AppCompatActivity {
             @Override
             public void onFinish() {
 
+                Intent intent = new Intent(HistoryActivity.this, CaptureMedia.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+                finish();
 
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(HistoryActivity.this);
                 alertDialogBuilder.setMessage("Are you sure, you want to end current history?");
@@ -93,6 +97,7 @@ public class HistoryActivity extends AppCompatActivity {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setMessage("Are you sure, you want to end current history?");
 
+        //alertDialogBuilder.setSingleChoiceItems()
         alertDialogBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {

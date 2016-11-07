@@ -116,9 +116,15 @@ public class FullscreenActivity extends AppCompatActivity {
 
         NumberPicker np2 = (NumberPicker) findViewById(R.id.numberPicker2);
         np2.setMaxValue(numbers.length-1);
+
         np2.setMinValue(0);
         np2.setDisplayedValues(numbers);
         np2.setWrapSelectorWheel(false);
+
+        NumberPicker npT = (NumberPicker) findViewById(R.id.numberPicker2);
+        npT.setMinValue(0);
+        npT.setMaxValue(1);
+        npT.setWrapSelectorWheel(false);
         // Set up the user interaction to manually show or hide the system UI.
 
         // Upon interacting with UI controls, delay any scheduled hide()
@@ -147,9 +153,10 @@ public class FullscreenActivity extends AppCompatActivity {
         */
         //intent.putExtra("history", );
         NumberPicker np = (NumberPicker) findViewById(R.id.numberPicker);
-        NumberPicker np2 = (NumberPicker) findViewById(R.id.numberPicker2);
+        NumberPicker npT = (NumberPicker) findViewById(R.id.numberPicker2);
 
-        ((Globals) this.getApplication()).setHistory(np.getValue(), 15* (np2.getValue()+1));
+        ((Globals) this.getApplication()).setHistory(np.getValue(), npT.getValue());
+        //((Globals) this.getApplication()).setHistory(np.getValue(), 15* (np2.getValue()+1));
 
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         startActivity(intent);
