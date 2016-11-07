@@ -104,7 +104,7 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="13dp"
+        android:layout_height="76dp"
         android:id="@+id/divider1">
 
     </LinearLayout>
@@ -147,95 +147,8 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="10dp"
+        android:layout_height="94dp"
         android:id="@+id/divider2"></LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="149dp"
-        android:id="@+id/middleSection3">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:weightSum="1">
-
-            <TextView
-                android:text="@string/media_capture_types"
-                android:textStyle="bold"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/media_capture_types"
-                android:textSize="18sp"
-                android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
-                android:textColor="#545454" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center_horizontal">
-
-            <CheckBox
-                android:text="@string/video_checkbox"
-                android:layout_width="match_parent"
-
-                android:layout_height="wrap_content"
-                android:id="@+id/video_checkbox"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:buttonTint="#4c9dd5"
-                android:textColor="#545454"
-                android:layout_weight="1" />
-
-            <CheckBox
-                android:text="@string/picture_checkbox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:buttonTint="#4c9dd5"
-                android:textColor="#545454"
-                android:id="@+id/picture_checkbox"
-                android:layout_weight="1" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="49dp"
-            >
-
-            <CheckBox
-                android:text="@string/text_checkbox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:buttonTint="#4c9dd5"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:textColor="#545454"
-                android:id="@+id/text_checkbox"
-                android:layout_weight="1" />
-
-            <CheckBox
-                android:text="@string/v_checkbox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:buttonTint="#4c9dd5"
-                android:textColor="#545454"
-                android:id="@+id/voice_checkbox"
-                android:layout_weight="1" />
-        </LinearLayout>
-
-    </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -243,14 +156,6 @@
         android:layout_height="match_parent"
         android:paddingRight="20dp"
         android:paddingLeft="20dp">
-
-        <Button
-            android:text="@string/cancel_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/cancel_button"
-            android:layout_weight="1"
-            android:onClick="cancelHist"/>
 
         <Button
             android:text="@string/create_button"

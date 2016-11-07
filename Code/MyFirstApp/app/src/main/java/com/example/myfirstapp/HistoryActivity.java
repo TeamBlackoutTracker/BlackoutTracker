@@ -83,10 +83,6 @@ public class HistoryActivity extends AppCompatActivity {
                 });
             }
         }.start();
-
-//        int receiveValue = getIntent().getIntExtra("duration", 0);
-//        TextView duration = (TextView) findViewById(R.id.historyDuration);
-//        duration.setText(receiveValue);
     }
 
     @Override

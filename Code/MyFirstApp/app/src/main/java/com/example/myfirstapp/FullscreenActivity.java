@@ -96,7 +96,7 @@ public class FullscreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fullscreen);
 
         mVisible = true;
-        mControlsView = findViewById(R.id.cancel_button);
+        mControlsView = findViewById(R.id.create_button);
         mContentView = findViewById(R.id.fullscreen_content);
 
         NumberPicker np = (NumberPicker) findViewById(R.id.numberPicker);
@@ -153,10 +153,6 @@ public class FullscreenActivity extends AppCompatActivity {
 
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         startActivity(intent);
-    }
-
-    @Override
-    public void onBackPressed() {
     }
 
     @Override

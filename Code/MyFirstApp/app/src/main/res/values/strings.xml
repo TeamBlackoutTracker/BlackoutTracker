@@ -28,7 +28,7 @@
     <string name="time_left">Time Left:</string>
     <string name="interval_frequency">Interval Frequency:</string>
     <string name="next_interval">Next Interval:</string>
-    <string name="capture_media">Capture Media:</string>
+    <string name="capture_media">Capture Media</string>
     <string name="picture_button">Picture</string>
     <string name="video_button">Video</string>
     <string name="text_memo_button">Text Memo</string>
@@ -38,6 +38,7 @@
     <string name="history_information">History Information</string>
     <string name="end_history">End History</string>
     <string name="frequency">frequency</string>
+    <string name="media">Capture Media</string>
 
 
 
