@@ -1,5 +1,4 @@
 Wednesday, Oct 19, 2016
-Sprint 2 - Oct 16 to Oct 23
 
 Accomplished: 
   +Choosing architecture style and design pattern
