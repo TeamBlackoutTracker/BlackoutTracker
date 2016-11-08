@@ -1,1 +1,21 @@
 
+Wednesday, Oct 26, 2016
+
+Accomplished: 
+  +Formatted UI for timeline creation
+  +Added history activity
+  +Created UI for history activity page
+  +Got numberpickers formatted
+  +Enabled navigation from page-page
+  
+Upcoming:
+  +Timers
+  +Alerts
+  +Global variables
+  +History object class
+  
+  
+Rob - 6hr
+Ryan - 1hr
+Jeb - 1hr
+Pham, Ngo - 1hr
