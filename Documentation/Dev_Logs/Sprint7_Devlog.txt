@@ -1,0 +1,17 @@
+Monday, Nov 7, 2016
+
+Accomplished: 
+  +Completed capture media UI
+  +Added camera functionality to capture media page
+  
+Upcoming:
+  +Video capture
+  +Text capture
+  +Voice capture
+  +View history
+  
+  
+Rob - 1.5hr
+Ryan - 5hr
+Jeb - 5hr
+Pham, Ngo - 5hr
