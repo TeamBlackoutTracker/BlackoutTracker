@@ -1,18 +1,15 @@
-
-Wednesday, Oct 26, 2016
+Wednesday, Nov 2, 2016
 
 Accomplished: 
-  +Formatted UI for timeline creation
-  +Added history activity
-  +Created UI for history activity page
-  +Got numberpickers formatted
-  +Enabled navigation from page-page
+  +Got timers displaying on history info page in proper format
+  +Added alerts for ending current history
+  +Created a global history object that stores all data
+  +Completed the history info page
   
 Upcoming:
-  +Timers
-  +Alerts
-  +Global variables
-  +History object class
+  +Capture media activity
+  +Picture capture
+  +Video capture
   
   
 Rob - 6hr
