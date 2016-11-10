@@ -122,8 +122,8 @@ public class FullscreenActivity extends AppCompatActivity {
         np2.setWrapSelectorWheel(false);
 
         NumberPicker npT = (NumberPicker) findViewById(R.id.numberPicker2);
-        npT.setMinValue(0);
-        npT.setMaxValue(1);
+        npT.setMinValue(1);
+        npT.setMaxValue(4);
         npT.setWrapSelectorWheel(false);
         // Set up the user interaction to manually show or hide the system UI.
 

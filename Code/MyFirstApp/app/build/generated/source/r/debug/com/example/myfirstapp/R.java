@@ -3029,7 +3029,7 @@ containing a value of this type.
         public static final int contentPanel=0x7f0d006b;
         public static final int createTimeline=0x7f0d008c;
         public static final int create_button=0x7f0d009f;
-        public static final int currentDate=0x7f0d00a1;
+        public static final int currentDate=0x7f0d00a2;
         public static final int custom=0x7f0d0071;
         public static final int customPanel=0x7f0d0070;
         public static final int dark=0x7f0d0057;
@@ -3063,7 +3063,7 @@ containing a value of this type.
         public static final int frequency=0x7f0d00a8;
         public static final int fullscreen_content=0x7f0d0092;
         public static final int history_duration=0x7f0d00a4;
-        public static final int history_information=0x7f0d00a2;
+        public static final int history_information=0x7f0d00a1;
         public static final int home=0x7f0d0004;
         public static final int homeAsUp=0x7f0d000f;
         public static final int hours=0x7f0d0098;

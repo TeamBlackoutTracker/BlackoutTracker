@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import java.text.DateFormat;
@@ -23,7 +24,7 @@ public class HistoryActivity extends AppCompatActivity {
 
         String currentDateTimeString = DateFormat.getDateInstance().format(new Date());
         Integer hist_Dur = ((Globals) this.getApplication()).getHistory().getDuration();
-        Integer hist_Intv = ((Globals) this.getApplication()).getHistory().getInterval();
+        final Integer hist_Intv = ((Globals) this.getApplication()).getHistory().getInterval();
 
         // textView is the TextView view that should display it
         final TextView currDate = (TextView) findViewById(R.id.currentDate);
@@ -67,11 +68,12 @@ public class HistoryActivity extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-
                 Intent intent = new Intent(HistoryActivity.this, CaptureMedia.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                startActivity(intent);
-                finish();
+                startActivityForResult(intent,2);
+                this.cancel();
+                this.start();
+                //finish();
 
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(HistoryActivity.this);
                 alertDialogBuilder.setMessage("Are you sure, you want to end current history?");
@@ -82,7 +84,7 @@ public class HistoryActivity extends AppCompatActivity {
                         Intent intent = new Intent(HistoryActivity.this, CaptureMedia.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         startActivity(intent);
-                        finish();
+                        //finish();
                     }
                 });
             }

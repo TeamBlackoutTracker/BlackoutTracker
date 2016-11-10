@@ -1,4 +1,4 @@
-#Mon Nov 07 17:12:56 EST 2016
+#Wed Nov 09 19:37:18 EST 2016
 base.0=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
