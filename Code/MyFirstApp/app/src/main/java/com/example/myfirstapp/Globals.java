@@ -38,6 +38,12 @@ public class Globals extends Application {
         this.np2 = np2;
     }
 
+    private Boolean durationFin = false;
+
+    public Boolean getDurationFin() { return durationFin; }
+
+    public void setDurationFin(Boolean durationFin) { this.durationFin = durationFin; }
+
     private Boolean hasHistory = false;
     public Boolean getHasHistory() {
         return hasHistory;

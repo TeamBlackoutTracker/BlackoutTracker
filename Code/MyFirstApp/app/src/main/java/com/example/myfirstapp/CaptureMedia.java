@@ -1,11 +1,9 @@
 package com.example.myfirstapp;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -47,7 +45,7 @@ public class CaptureMedia extends AppCompatActivity {
                 }
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(destination));
                 startActivityForResult(intent, 1);
-                intent = new Intent(this, HistoryActivity.class);
+                intent = new Intent(this, HistoryInformation.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT);
                 super.onBackPressed();
             }
