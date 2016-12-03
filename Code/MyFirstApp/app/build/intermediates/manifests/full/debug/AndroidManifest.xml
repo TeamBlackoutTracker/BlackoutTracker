@@ -8,6 +8,8 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="24" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:name="com.example.myfirstapp.Globals"
         android:allowBackup="true"
@@ -25,7 +27,9 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name="com.example.myfirstapp.MainActivity" >
+        <activity
+            android:name="com.example.myfirstapp.HomeScreen"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,16 +37,25 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name="com.example.myfirstapp.FileExplorer"
+=======
+            android:name="com.example.myfirstapp.ViewHistory"
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
             android:label="@string/title_activity_main2"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.example.myfirstapp.FullscreenActivity"
+            android:name="com.example.myfirstapp.CreateHistory"
             android:label="@string/title_activity_fullscreen"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
-        <activity android:name="com.example.myfirstapp.HistoryActivity" />
-        <activity android:name="com.example.myfirstapp.CaptureMedia" />
+        <activity
+            android:name="com.example.myfirstapp.HistoryInformation"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.myfirstapp.CaptureMedia" >
+        </activity>
 
         <uses-permission android:name="android.permission.CAMERA" />
 
@@ -50,9 +63,6 @@
             android:name="android.hardware.camera"
             android:required="true" />
 
-        <uses-permission
-            android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-            android:maxSdkVersion="18" />
         <uses-permission android:name="android.permission.RECORD_AUDIO" />
         <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 

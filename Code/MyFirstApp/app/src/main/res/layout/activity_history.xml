@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.myfirstapp.HistoryActivity">
+    tools:context="com.example.myfirstapp.HistoryInformation">
 
     <LinearLayout
         android:orientation="vertical"
@@ -24,7 +24,7 @@
                 android:text="@string/history_information"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/currentDate"
+                android:id="@+id/history_information"
                 android:textStyle="bold"
                 android:textAlignment="center"
                 android:textColor="#fff"
@@ -48,6 +48,10 @@
                 android:textSize="32sp"
                 android:layout_width="wrap_content"
                 android:layout_height="44dp"
+<<<<<<< HEAD
+=======
+                android:id="@+id/currentDate"
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
                 android:layout_weight="1" />
         </LinearLayout>
 

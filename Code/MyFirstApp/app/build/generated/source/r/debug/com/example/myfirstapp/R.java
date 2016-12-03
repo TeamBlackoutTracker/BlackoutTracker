@@ -3017,8 +3017,14 @@ containing a value of this type.
         public static final int collapseActionView=0x7f0d0046;
         public static final int contact=0x7f0d003e;
         public static final int contentPanel=0x7f0d006b;
+<<<<<<< HEAD
         public static final int create_button=0x7f0d0091;
         public static final int currentDate=0x7f0d0092;
+=======
+        public static final int createTimeline=0x7f0d008c;
+        public static final int create_button=0x7f0d009f;
+        public static final int currentDate=0x7f0d00a2;
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
         public static final int custom=0x7f0d0071;
         public static final int customPanel=0x7f0d0070;
         public static final int dark=0x7f0d0057;
@@ -3046,9 +3052,16 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0d0031;
         public static final int fill_vertical=0x7f0d0027;
         public static final int fixed=0x7f0d0059;
+<<<<<<< HEAD
         public static final int frequency=0x7f0d0095;
         public static final int fullscreen_content=0x7f0d008e;
         public static final int history_duration=0x7f0d0093;
+=======
+        public static final int frequency=0x7f0d00a8;
+        public static final int fullscreen_content=0x7f0d0092;
+        public static final int history_duration=0x7f0d00a4;
+        public static final int history_information=0x7f0d00a1;
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
         public static final int home=0x7f0d0004;
         public static final int homeAsUp=0x7f0d000f;
         public static final int html=0x7f0d004a;

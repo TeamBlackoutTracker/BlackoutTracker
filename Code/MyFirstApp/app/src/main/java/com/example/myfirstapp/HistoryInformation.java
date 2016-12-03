@@ -12,18 +12,18 @@ import java.util.Date;
 import android.app.AlertDialog;
 import android.widget.Toast;
 
-import javax.microedition.khronos.opengles.GL;
-
-public class HistoryActivity extends AppCompatActivity {
+public class HistoryInformation extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history);
 
+        ((Globals) this.getApplication()).setDurationFin(false);
+
         String currentDateTimeString = DateFormat.getDateInstance().format(new Date());
         Integer hist_Dur = ((Globals) this.getApplication()).getHistory().getDuration();
-        Integer hist_Intv = ((Globals) this.getApplication()).getHistory().getInterval();
+        final Integer hist_Intv = ((Globals) this.getApplication()).getHistory().getInterval();
 
         // textView is the TextView view that should display it
         final TextView currDate = (TextView) findViewById(R.id.currentDate);
@@ -32,13 +32,16 @@ public class HistoryActivity extends AppCompatActivity {
         currDate.setText(currentDateTimeString);
 
         if(hist_Dur == 1) {
-            currDuration.setText(String.valueOf(hist_Dur) + " hour");
+            currDuration.setText(String.valueOf(hist_Dur) + " min");
         }else{
-            currDuration.setText(String.valueOf(hist_Dur) + " hours");
+            currDuration.setText(String.valueOf(hist_Dur) + " mins");
         }
 
-
-        currInterval.setText(String.valueOf(hist_Intv) + " mins");
+        if(hist_Intv == 1) {
+            currInterval.setText(String.valueOf(hist_Intv) + " min");
+        }else {
+            currInterval.setText(String.valueOf(hist_Intv) + " mins");
+        }
 
         final TextView currTime = (TextView) findViewById(R.id.remainder);
 
@@ -46,13 +49,14 @@ public class HistoryActivity extends AppCompatActivity {
             @Override
             public void onTick(long millisUntilFinished) {
                 long seconds = millisUntilFinished / 1000;
-                currTime.setText(String.format("%02d:%02d:%02d", (seconds / 3600),
-                        (seconds % 3600) / 60, (seconds % 60)));
+                currTime.setText(String.format("%02d:%02d", (seconds % 3600) / 60, (seconds % 60)));
             }
 
             @Override
             public void onFinish() {
-                currTime.setText("done!");
+                currTime.setText("Finished");
+                ((Globals) getApplication()).setDurationFin(true);
+                this.cancel();
             }
         }.start();
 
@@ -63,28 +67,28 @@ public class HistoryActivity extends AppCompatActivity {
             public void onTick(long millisUntilFinished) {
                 long seconds = millisUntilFinished / 1000;
                 currInt.setText(String.format("%02d:%02d", (seconds % 3600) / 60, (seconds % 60)));
+
+                if(currTime.getText() == "Finished"){
+                    finish();
+                }
             }
 
             @Override
             public void onFinish() {
-
-                Intent intent = new Intent(HistoryActivity.this, CaptureMedia.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                startActivity(intent);
-                finish();
-
-                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(HistoryActivity.this);
-                alertDialogBuilder.setMessage("Are you sure, you want to end current history?");
-
-                alertDialogBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(HistoryActivity.this, CaptureMedia.class);
-                        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                        startActivity(intent);
-                        finish();
-                    }
-                });
+                if( ((Globals) getApplication()).getDurationFin() == false ) {
+                    Intent intent = new Intent(HistoryInformation.this, CaptureMedia.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                    startActivityForResult(intent, 2);
+                    this.cancel();
+                    this.start();
+                }
+                else{
+                    Intent intent = new Intent(HistoryInformation.this, HomeScreen.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                    startActivity(intent);
+                    this.cancel();
+                    finish();
+                }
             }
         }.start();
     }
@@ -101,8 +105,7 @@ public class HistoryActivity extends AppCompatActivity {
         alertDialogBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Intent intent = new Intent(HistoryActivity.this, MainActivity.class);
-
+                Intent intent = new Intent(HistoryInformation.this, HomeScreen.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent);
                 finish();
@@ -112,7 +115,7 @@ public class HistoryActivity extends AppCompatActivity {
         alertDialogBuilder.setNegativeButton("No",new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface arg0, int arg1) {
-                Toast.makeText(HistoryActivity.this,"Continuing History", Toast.LENGTH_LONG).show();
+                Toast.makeText(HistoryInformation.this,"Continuing History", Toast.LENGTH_LONG).show();
             }
         });
 

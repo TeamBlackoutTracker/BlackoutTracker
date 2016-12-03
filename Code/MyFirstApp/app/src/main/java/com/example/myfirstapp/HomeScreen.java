@@ -11,7 +11,7 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-public class MainActivity extends AppCompatActivity {
+public class HomeScreen extends AppCompatActivity {
     public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
      * Called when the user clicks the Send button
      */
     public void newHist(View view) {
-        Intent intent = new Intent(this, FullscreenActivity.class);
+        Intent intent = new Intent(this, CreateHistory.class);
         /*
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
@@ -47,7 +47,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void oldHist(View view) {
+<<<<<<< HEAD:Code/MyFirstApp/app/src/main/java/com/example/myfirstapp/MainActivity.java
         Intent intent = new Intent(this, FileExplorer.class);
+=======
+        Intent intent = new Intent(this, ViewHistory.class);
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18:Code/MyFirstApp/app/src/main/java/com/example/myfirstapp/HomeScreen.java
         /*
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();

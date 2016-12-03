@@ -8,17 +8,13 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.NumberPicker;
-
-import javax.microedition.khronos.opengles.GL;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
  * status bar and navigation/system bar) with user interaction.
  */
-public class FullscreenActivity extends AppCompatActivity {
+public class CreateHistory extends AppCompatActivity {
     /**
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
@@ -121,10 +117,6 @@ public class FullscreenActivity extends AppCompatActivity {
         np2.setDisplayedValues(numbers);
         np2.setWrapSelectorWheel(false);
 
-        NumberPicker npT = (NumberPicker) findViewById(R.id.numberPicker2);
-        npT.setMinValue(0);
-        npT.setMaxValue(1);
-        npT.setWrapSelectorWheel(false);
         // Set up the user interaction to manually show or hide the system UI.
 
         // Upon interacting with UI controls, delay any scheduled hide()
@@ -134,7 +126,7 @@ public class FullscreenActivity extends AppCompatActivity {
     }
 
     public void cancelHist(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, HomeScreen.class);
         /*
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
@@ -145,7 +137,7 @@ public class FullscreenActivity extends AppCompatActivity {
     }
 
     public void Hist(View view) {
-        Intent intent = new Intent(this, HistoryActivity.class);
+        Intent intent = new Intent(this, HistoryInformation.class);
         /*
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
@@ -153,10 +145,10 @@ public class FullscreenActivity extends AppCompatActivity {
         */
         //intent.putExtra("history", );
         NumberPicker np = (NumberPicker) findViewById(R.id.numberPicker);
-        NumberPicker npT = (NumberPicker) findViewById(R.id.numberPicker2);
+        NumberPicker np2 = (NumberPicker) findViewById(R.id.numberPicker2);
 
-        ((Globals) this.getApplication()).setHistory(np.getValue(), npT.getValue());
-        //((Globals) this.getApplication()).setHistory(np.getValue(), 15* (np2.getValue()+1));
+        //((Globals) this.getApplication()).setHistory(np.getValue(), npT.getValue());
+        ((Globals) this.getApplication()).setHistory(np.getValue(), 15* (np2.getValue()+1));
 
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         startActivity(intent);
