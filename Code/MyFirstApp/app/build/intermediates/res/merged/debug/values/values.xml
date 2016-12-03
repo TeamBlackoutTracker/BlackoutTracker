@@ -515,7 +515,6 @@
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <dimen name="fab_margin">16dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -580,8 +579,6 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="blackout_tracker">Blackout Tracker</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
-    <string name="cancel_button">Cancel</string>
-    <string name="capture_media">Capture Media</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
@@ -606,39 +603,26 @@
     <string name="create_button">Create</string>
     <string name="current_date">Date</string>
     <string name="description">Please select the time duration, frequency of media capture, and media types you wish to record.</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="duration">Duration:</string>
     <string name="end_history">End History</string>
     <string name="frequency">frequency</string>
-    <string name="history">History</string>
     <string name="history_duration">history_duration</string>
     <string name="history_information">History Information</string>
     <string name="hours">hours</string>
     <string name="interval_frequency">Interval Frequency:</string>
     <string name="media">Capture Media</string>
-    <string name="media_capture_types">Media Capture Types:</string>
     <string name="mins">mins</string>
     <string name="new_">Start A New History</string>
     <string name="next_interval">Next Interval:</string>
     <string name="old_">Preview An Existing History</string>
-    <string name="picture_button">Picture</string>
-    <string name="picture_checkbox">Picture</string>
     <string name="remainder">remainder</string>
     <string name="search_menu_title">Search</string>
     <string name="setup_history">Setup your new history</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="text_checkbox">Text</string>
-    <string name="text_memo_button">Text Memo</string>
     <string name="time_duration">Time Duration:</string>
     <string name="time_left">Time Left:</string>
     <string name="title_activity_fullscreen">Setup Your New History</string>
-    <string name="title_activity_fullscreen2">FullscreenActivity2</string>
     <string name="title_activity_main2">Existing History</string>
-    <string name="v_checkbox">Voice</string>
-    <string name="video_button">Video</string>
-    <string name="video_checkbox">Video</string>
-    <string name="voice_memo_button">Voice Memo</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

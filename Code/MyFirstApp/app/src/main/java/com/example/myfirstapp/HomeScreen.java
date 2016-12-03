@@ -47,7 +47,11 @@ public class HomeScreen extends AppCompatActivity {
     }
 
     public void oldHist(View view) {
+<<<<<<< HEAD:Code/MyFirstApp/app/src/main/java/com/example/myfirstapp/HomeScreen.java
         Intent intent = new Intent(this, ViewHistory.class);
+=======
+        Intent intent = new Intent(this, FileExplorer.class);
+>>>>>>> 4863e3670bec2d7239f30e0527c6e41b80f6792a:Code/MyFirstApp/app/src/main/java/com/example/myfirstapp/MainActivity.java
         /*
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();

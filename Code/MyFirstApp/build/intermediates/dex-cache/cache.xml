@@ -2,202 +2,220 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_2ce073eb7c6bf67aa601865f64e015e66e63828e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_92fa1f4ea32fbe7c767424985c3b6be0e80a9483.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_52ac2c60b04f1b2b4aacfd4ef6d9bb4e9f315332.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_ebfd7fc5c801ee9f85e75cd56a2b3d3e524408ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_8340046a41220c403aa6caf575e43ec041f0d3f9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.1_0326d9b7c865ad9a471b3b8200e78a102bb05e9d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_b7e7031ef50eaf27d1ffc4dbbf3b4013b924f5ba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_a681b0283502c2da38dacc2dea1fc30d691fa68b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_eb4624cf88747f3233f67c6939e1f9d567969411.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_bc476d2a28890017da1ccd8aae6d550246115990.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_1ce7fa8e2ab2243a106adfce637504294b4de95f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_bb3e8324d39500e92114ee81071e29e1e5e69daa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_57d61677eba9a1d2311a93f543ba1e4b93f10513.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_6732c886706b7116a252d0a47e199a6865eeb064.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_7441389d049aab79527c115e695f1e4fefb1ea3d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.6.1_ec54d0743b891f0af2a32fc349ed4d8d076cd3cb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_f881d4c44f983b46acdb7f3f64ab48f90141e0ee.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_e4cd3b31271ecc1f4b0b29eb3aa70fe4adcb2c04.jar" />
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_fabfe32a0c8f4e3b4cfef506fd80a45c575d0d42\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_93cb58ba3b290451d3d24c34108c533f120d220c.jar" />
+        sha1="b79e8e02782f654ce77402110ca80381a1a2a573">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b48f186b56deaa50fec6a3a276af121c29197a5f\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ddc46d7c62e6489d929c11855c6eea35fe0b31a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_85dfb3853a13eb19abf1f63e04fb798deb89f495.jar" />
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_04d4b832f7d6137500a1a8fe3eec02e69708fbd8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_307e41408b1b67ed9cbbc543db03ec04ee3f9f9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_67dd0c50c7ab5fdb50466ddb8b73a847ca706da9.jar" />
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_89112036f380f4c1db5a52f975250cbda9ced5e6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.6.1_86b3b5645afcf9b5ddf37ad592ee36e37e1a9273\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Jebreiel\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_c96a659164e31b8e1cb5da6cfa22c0002922241b.jar" />
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_d02e0ab1e43c6af64e50e01d4adec86d6e577325\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="46ce64bfd1b79b287bc9861e918fe210a2e61ff3">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3fa2d189e1d5aa78c80f3aec7c96e01d7f234c0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_f0b5ad545f8c25a87f451c57c9cfc11dc0ca13e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.1_76032048365794380c8708055b5a72135611f31a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_87f0d292fff43abc9b15899f86f1ba6b1b8c9384\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_b08720a0db4a7408d6e591f22d10e0d1ad1d00f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_d6c1eb34ae725eadc6b1c3f8c9b1e42334d529c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_e8b6d011101e6cadbf980c369271149e7effe86e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_3ba79382363407433532fd9b8b4c9d33b48bb7d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_775ce72080e33ff2bf9c02cabf6835539da10f6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_665d4cb009e9d31871646ce9f2fbd3d9e91f5e78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_06df13c26ededb64ca2cb9c5558030e37370999b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_651f481dceceec038158fc6f5290e662aee7756b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_83755e1dea9a9251ffc98e76501558f9d7f683fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_b32d6905295bb0b9cf277e7d85ece2c7d1f9bacd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_6f51a4a342feb8decc5cc2ec50818962d278c01f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\robsh\Documents\BlackoutTracker\Code\MyFirstApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a71b58913b55776e2de81913f8e523bae5c0e6e0\classes.dex" />
     </item>
 
 </items>
