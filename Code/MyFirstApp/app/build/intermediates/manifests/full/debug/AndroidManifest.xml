@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.myfirstapp.DisplayMessageActivity"
+            android:name="com.example.myfirstapp.FileExplorer"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
@@ -61,15 +61,15 @@
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.myfirstapp.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

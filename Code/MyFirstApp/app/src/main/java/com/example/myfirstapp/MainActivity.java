@@ -5,8 +5,6 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -49,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void oldHist(View view) {
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
+        Intent intent = new Intent(this, FileExplorer.class);
         /*
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_history"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.myfirstapp.HistoryActivity">
@@ -49,7 +48,6 @@
                 android:textSize="32sp"
                 android:layout_width="wrap_content"
                 android:layout_height="44dp"
-                android:id="@+id/history_information"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -69,7 +67,6 @@
                 android:layout_width="89dp"
                 android:layout_marginTop="30dp"
                 android:text="@string/time_duration"
-                android:id="@+id/time_duration"
                 android:layout_height="61dp"
                 android:layout_weight="0.25" />
 
@@ -99,7 +96,6 @@
                 android:textColor="#545454"
                 android:textSize="18sp"
                 android:text="@string/time_left"
-                android:id="@+id/time_left"
                 android:layout_width="wrap_content"
                 android:layout_weight="0.25"
                 android:layout_height="31dp" />
@@ -132,7 +128,6 @@
                 android:textSize="18sp"
                 android:layout_width="82dp"
                 android:text="@string/interval_frequency"
-                android:id="@+id/interval_frequencyP2"
                 android:layout_height="52dp"
                 android:layout_weight="0.25" />
 
@@ -162,7 +157,6 @@
                 android:layout_height="50dp"
                 android:layout_weight="0.10"
                 android:text="@string/next_interval"
-                android:id="@+id/next_interval"
                 android:layout_width="wrap_content" />
 
             <TextView
@@ -179,7 +173,6 @@
             android:text="@string/end_history"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/end_history"
             android:onClick="end_history"/>
 
     </LinearLayout>
