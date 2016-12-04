@@ -7,5 +7,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
     tools:context="com.example.myfirstapp.FileExplorer">
+=======
+<<<<<<< HEAD
+    tools:context="com.example.myfirstapp.FileExplorer">
+=======
+    tools:context="com.example.myfirstapp.ViewHistory">
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
+
+>>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
 </RelativeLayout>

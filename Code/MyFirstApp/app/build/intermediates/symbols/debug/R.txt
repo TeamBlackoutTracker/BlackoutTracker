@@ -752,8 +752,19 @@ int id clip_vertical 0x7f0d002f
 int id collapseActionView 0x7f0d0046
 int id contact 0x7f0d003e
 int id contentPanel 0x7f0d006b
+<<<<<<< HEAD
 int id create_button 0x7f0d0092
 int id currentDate 0x7f0d0094
+=======
+<<<<<<< HEAD
+int id create_button 0x7f0d0091
+int id currentDate 0x7f0d0092
+=======
+int id createTimeline 0x7f0d008c
+int id create_button 0x7f0d009f
+int id currentDate 0x7f0d00a2
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
+>>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
 int id custom 0x7f0d0071
 int id customPanel 0x7f0d0070
 int id dark 0x7f0d0057
@@ -782,10 +793,23 @@ int id fill 0x7f0d0030
 int id fill_horizontal 0x7f0d0031
 int id fill_vertical 0x7f0d0027
 int id fixed 0x7f0d0059
+<<<<<<< HEAD
 int id frequency 0x7f0d0097
 int id fullscreen_content 0x7f0d008f
 int id history_duration 0x7f0d0095
 int id history_information 0x7f0d0093
+=======
+<<<<<<< HEAD
+int id frequency 0x7f0d0095
+int id fullscreen_content 0x7f0d008e
+int id history_duration 0x7f0d0093
+=======
+int id frequency 0x7f0d00a8
+int id fullscreen_content 0x7f0d0092
+int id history_duration 0x7f0d00a4
+int id history_information 0x7f0d00a1
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
+>>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
 int id home 0x7f0d0004
 int id homeAsUp 0x7f0d000f
 int id html 0x7f0d004a

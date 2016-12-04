@@ -8,6 +8,25 @@
         "source": "C:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        "merged": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
+=======
+>>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
         "merged": "C:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_ic_googleplayservices.png",
         "source": "C:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-xxhdpi-v4\\common_ic_googleplayservices.png"
     },
@@ -22,6 +41,7 @@
     {
         "merged": "C:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
         "source": "C:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
+<<<<<<< HEAD
     },
     {
         "merged": "C:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -30,6 +50,26 @@
     {
         "merged": "C:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+=======
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
+    },
+    {
+        "merged": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\robsh\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+=======
+        "merged": "C:\\Users\\robsh\\OneDrive\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\robsh\\OneDrive\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\robsh\\OneDrive\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\robsh\\OneDrive\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
+>>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
     },
     {
         "merged": "C:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",

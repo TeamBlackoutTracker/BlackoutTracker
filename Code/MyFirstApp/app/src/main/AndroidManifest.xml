@@ -29,7 +29,15 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".FileExplorer"
+=======
+<<<<<<< HEAD
+            android:name=".FileExplorer"
+=======
+            android:name=".ViewHistory"
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
+>>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:screenOrientation="portrait"/>

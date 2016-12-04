@@ -55,7 +55,20 @@ public class HomeScreen extends AppCompatActivity {
     }
 
     public void oldHist(View view) {
+<<<<<<< HEAD
         Intent intent = new Intent(this, FileExplorer.class);
+=======
+<<<<<<< HEAD:Code/MyFirstApp/app/src/main/java/com/example/myfirstapp/MainActivity.java
+        Intent intent = new Intent(this, FileExplorer.class);
+=======
+        Intent intent = new Intent(this, ViewHistory.class);
+>>>>>>> e1681ddc007783fa972e670661c9451e2328ff18:Code/MyFirstApp/app/src/main/java/com/example/myfirstapp/HomeScreen.java
+        /*
+        EditText editText = (EditText) findViewById(R.id.edit_message);
+        String message = editText.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
+        */
+>>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         startActivity(intent);
     }
