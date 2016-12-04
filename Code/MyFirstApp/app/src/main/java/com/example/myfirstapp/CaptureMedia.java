@@ -41,6 +41,29 @@ public class CaptureMedia extends AppCompatActivity {
                 //Uri photoURI = FileProvider.getUriForFile(this, "com.example.android.fileprovider", photoFile);
                 if (!destination.exists()) {
                     destination.mkdirs();
+                }
+                intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(destination));
+                startActivityForResult(intent, 1);
+                intent = new Intent(this, HistoryInformation.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT);
+                super.onBackPressed();
+            }
+        }
+    }
+
+    public void mediaVideo(View view) {
+        Intent intent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
+        if(intent.resolveActivity(getPackageManager()) != null) {
+            File videoFile = null;
+            try {
+                videoFile = createVideoFile();
+            } catch (IOException ex) {
+                //
+            }
+            if (videoFile != null) {
+                File destination = new File(getExternalStorageDirectory() + "/BlackoutTracker", videoFile.getName());
+                //Uri photoURI = FileProvider.getUriForFile(this, "com.example.android.fileprovider", photoFile);
+                if (!destination.exists()) {
                     destination.mkdirs();
                 }
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(destination));
@@ -52,11 +75,27 @@ public class CaptureMedia extends AppCompatActivity {
         }
     }
 
+    public File createVideoFile() throws IOException {
+        String mCurrentPhotoPath;
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmm").format(new Date());
+        String videoFileName = timeStamp + "_MP4";
+        File storageDir = getExternalStorageDirectory();
+        File image = File.createTempFile(
+                videoFileName,  /* prefix */
+                ".mp4",         /* suffix */
+                storageDir      /* directory */
+        );
+
+        // Save a file: path for use with ACTION_VIEW intents
+        mCurrentPhotoPath = "file:" + image.getAbsolutePath();
+        return image;
+    }
+
     public File createImageFile() throws IOException {
         String mCurrentPhotoPath;
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmm").format(new Date());
-        String imageFileName = "JPEG_" + timeStamp + "_";
-        File storageDir = getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS);
+        String imageFileName = timeStamp + "JPEG";
+        File storageDir = getExternalStorageDirectory();
         File image = File.createTempFile(
                 imageFileName,  /* prefix */
                 ".jpg",         /* suffix */

@@ -2,6 +2,7 @@ package com.example.myfirstapp;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,10 @@ import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
+
+import java.io.File;
+
+import static android.os.Environment.getExternalStorageDirectory;
 
 public class HomeScreen extends AppCompatActivity {
     public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
@@ -23,12 +28,15 @@ public class HomeScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-       //Button btn = (Button) findViewById(R.id.button2);
-        //Button btn1 = (Button) findViewById(R.id.button4);
-        //btn.setEnabled(false);
+        File f = new File(getExternalStorageDirectory()+"/BlackoutTracker");
+        if(!f.exists()){
+            try{
+                f.mkdirs();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
     }
 
     /**
@@ -47,19 +55,9 @@ public class HomeScreen extends AppCompatActivity {
     }
 
     public void oldHist(View view) {
-<<<<<<< HEAD:Code/MyFirstApp/app/src/main/java/com/example/myfirstapp/HomeScreen.java
-        Intent intent = new Intent(this, ViewHistory.class);
-=======
         Intent intent = new Intent(this, FileExplorer.class);
->>>>>>> 4863e3670bec2d7239f30e0527c6e41b80f6792a:Code/MyFirstApp/app/src/main/java/com/example/myfirstapp/MainActivity.java
-        /*
-        EditText editText = (EditText) findViewById(R.id.edit_message);
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
-        */
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         startActivity(intent);
-
     }
 
     @Override

@@ -15,8 +15,8 @@ public class FileExplorer extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Intent intent1 = new Intent(this, FileChooser.class);
-        startActivityForResult(intent1,REQUEST_PATH);
+        setContentView(R.layout.activity_file_explorer);
+        edittext = (EditText)findViewById(R.id.editText);
     }
 
     public void getfile(View view){
