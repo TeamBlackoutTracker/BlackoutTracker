@@ -36,7 +36,8 @@
         android:text="Text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.00" />
+        android:layout_weight="0.00"
+        android:onClick="mediaText" />
 
     <Button
         android:text="Video"
@@ -49,5 +50,6 @@
         android:text="Voice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.00" />
+        android:layout_weight="0.00"
+        android:onClick="mediaVoice" />
 </LinearLayout>

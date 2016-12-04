@@ -26,7 +26,7 @@ public class FileChooser extends ListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        File currentDir = new File(getExternalStorageDirectory() + "/BlackoutTracker");
+        File currentDir = new File(Environment.getExternalStorageDirectory(),"BlackoutTracker");
         fill(currentDir);
     }
     private void fill(File f)

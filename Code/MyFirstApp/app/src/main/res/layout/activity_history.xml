@@ -48,14 +48,7 @@
                 android:textSize="32sp"
                 android:layout_width="wrap_content"
                 android:layout_height="44dp"
-<<<<<<< HEAD
                 android:id="@+id/currentDate"
-=======
-<<<<<<< HEAD
-=======
-                android:id="@+id/currentDate"
->>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
->>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
                 android:layout_weight="1" />
         </LinearLayout>
 

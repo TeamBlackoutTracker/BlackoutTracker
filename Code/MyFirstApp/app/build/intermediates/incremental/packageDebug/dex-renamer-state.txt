@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Sat Dec 03 21:38:39 EST 2016
-=======
-#Sat Nov 26 09:07:39 EST 2016
->>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
+#Sun Dec 04 15:02:50 EST 2016
 base.0=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

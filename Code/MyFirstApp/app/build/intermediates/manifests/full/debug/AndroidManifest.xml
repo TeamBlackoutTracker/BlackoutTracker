@@ -38,15 +38,7 @@
             </intent-filter>
         </activity>
         <activity
-<<<<<<< HEAD
             android:name="com.example.myfirstapp.FileExplorer"
-=======
-<<<<<<< HEAD
-            android:name="com.example.myfirstapp.FileExplorer"
-=======
-            android:name="com.example.myfirstapp.ViewHistory"
->>>>>>> e1681ddc007783fa972e670661c9451e2328ff18
->>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
             android:label="@string/title_activity_main2"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
@@ -64,12 +56,12 @@
             android:label="@string/title_activity_fullscreen"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
         <activity
             android:name="com.example.myfirstapp.HistoryInformation"
             android:screenOrientation="portrait" />
-        <activity android:name="com.example.myfirstapp.CaptureMedia" >
-        </activity>
+        <activity
+            android:name="com.example.myfirstapp.CaptureMedia"
+            android:screenOrientation="portrait" />
 
         <uses-permission android:name="android.permission.CAMERA" />
 

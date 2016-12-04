@@ -3,6 +3,7 @@ package com.example.myfirstapp;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Environment;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,9 @@ import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import static android.os.Environment.getExternalStorageDirectory;
 
@@ -29,13 +33,11 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-        File f = new File(getExternalStorageDirectory()+"/BlackoutTracker");
-        if(!f.exists()){
-            try{
-                f.mkdirs();
-            }catch (Exception e){
-                e.printStackTrace();
-            }
+
+        File directory = new File(getExternalStorageDirectory() + "/BlackoutTracker");
+        if (!directory.exists()) {
+            directory.mkdirs();
+            directory.mkdirs();
         }
     }
 
@@ -55,20 +57,7 @@ public class HomeScreen extends AppCompatActivity {
     }
 
     public void oldHist(View view) {
-<<<<<<< HEAD
         Intent intent = new Intent(this, FileExplorer.class);
-=======
-<<<<<<< HEAD:Code/MyFirstApp/app/src/main/java/com/example/myfirstapp/MainActivity.java
-        Intent intent = new Intent(this, FileExplorer.class);
-=======
-        Intent intent = new Intent(this, ViewHistory.class);
->>>>>>> e1681ddc007783fa972e670661c9451e2328ff18:Code/MyFirstApp/app/src/main/java/com/example/myfirstapp/HomeScreen.java
-        /*
-        EditText editText = (EditText) findViewById(R.id.edit_message);
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
-        */
->>>>>>> f34afd3f7c81d3163d147c157dd16bb4fce7a8c2
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         startActivity(intent);
     }
