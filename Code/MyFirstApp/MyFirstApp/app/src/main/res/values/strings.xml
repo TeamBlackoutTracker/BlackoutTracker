@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Blackout Tracker</string>
+    <string name="title_activity_main2">Existing History</string>
+    <string name="new_">Start A New History</string>
+    <string name="old_">Preview An Existing History</string>
+
+    <string name="title_activity_fullscreen">Setup Your New History</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_fullscreen2">FullscreenActivity2</string>
+</resources>

@@ -12,6 +12,7 @@ import com.google.android.gms.actions.NoteIntents;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -19,6 +20,7 @@ import static android.os.Environment.getExternalStorageDirectory;
 
 public class CaptureMedia extends AppCompatActivity {
     public static final int ACTIVITY_RECORD_SOUND = 0;
+    String currentDateTimeString = DateFormat.getDateInstance().format(new Date());
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,12 +42,7 @@ public class CaptureMedia extends AppCompatActivity {
                 //
             }
             if (photoFile != null) {
-                File destination = new File(getExternalStorageDirectory() + "/BlackoutTracker", photoFile.getName());
-                //Uri photoURI = FileProvider.getUriForFile(this, "com.example.android.fileprovider", photoFile);
-                if (!destination.exists()) {
-                    destination.mkdirs();
-                    destination.mkdirs();
-                }
+                File destination = new File(Environment.getExternalStorageDirectory() + "/BlackoutTracker/" + currentDateTimeString , photoFile.getName());
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(destination));
                 startActivityForResult(intent, 1);
                 intent = new Intent(this, HistoryInformation.class);
@@ -65,12 +62,7 @@ public class CaptureMedia extends AppCompatActivity {
                 //
             }
             if (videoFile != null) {
-                File destination = new File(getExternalStorageDirectory() + "/BlackoutTracker", videoFile.getName());
-                //Uri photoURI = FileProvider.getUriForFile(this, "com.example.android.fileprovider", photoFile);
-                if (!destination.exists()) {
-                    destination.mkdirs();
-                    destination.mkdirs();
-                }
+                File destination = new File(Environment.getExternalStorageDirectory() + "/BlackoutTracker/" + currentDateTimeString, videoFile.getName());
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(destination));
                 startActivityForResult(intent, 1);
                 intent = new Intent(this, HistoryInformation.class);
@@ -92,7 +84,7 @@ public class CaptureMedia extends AppCompatActivity {
                 //
             }
             if (textFile != null) {
-                File destination = new File(getExternalStorageDirectory() + "/BlackoutTracker", textFile.getName());
+                File destination = new File(getExternalStorageDirectory() + "/BlackoutTracker/" + currentDateTimeString, textFile.getName());
                 //Uri photoURI = FileProvider.getUriForFile(this, "com.example.android.fileprovider", photoFile);
                 if (!destination.exists()) {
                     destination.mkdirs();
@@ -117,7 +109,7 @@ public class CaptureMedia extends AppCompatActivity {
                 //
             }
             if (voiceFile != null) {
-                File destination = new File(getExternalStorageDirectory() + "/BlackoutTracker", voiceFile.getName());
+                File destination = new File(getExternalStorageDirectory() + "/BlackoutTracker/" + currentDateTimeString, voiceFile.getName());
                 //Uri photoURI = FileProvider.getUriForFile(this, "com.example.android.fileprovider", photoFile);
                 if (!destination.exists()) {
                     destination.mkdirs();

@@ -1,4 +1,7 @@
-#Sun Dec 04 15:02:50 EST 2016
-base.0=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Sun Dec 04 16:03:01 EST 2016
+base.0=C\:\\Users\\Clus\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4692247f1a9ee44b14c895c83d37edaffbe198cc
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Clus\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_25266a3ebba198282df5409d32f9a8a99e4c3793\\classes.dex
+base.1=C\:\\Users\\Clus\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_25266a3ebba198282df5409d32f9a8a99e4c3793
+file.0=C\:\\Users\\Clus\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4692247f1a9ee44b14c895c83d37edaffbe198cc\\classes.dex
