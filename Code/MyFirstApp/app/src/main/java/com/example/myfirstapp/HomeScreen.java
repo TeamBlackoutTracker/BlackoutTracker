@@ -155,7 +155,7 @@ public class HomeScreen extends AppCompatActivity {
     }
 
     public void oldHist(View view) {
-        Intent intent = new Intent(this, FileExplorer.class);
+        Intent intent = new Intent(this, FileChooser.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         startActivity(intent);
     }

@@ -37,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.00"
-        android:onClick="mediaText" />
+        android:onClick="mediaTextView" />
 
     <Button
         android:text="Video"

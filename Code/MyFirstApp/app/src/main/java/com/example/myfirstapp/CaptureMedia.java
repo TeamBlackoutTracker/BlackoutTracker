@@ -6,11 +6,14 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 
 import com.google.android.gms.actions.NoteIntents;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -72,6 +75,10 @@ public class CaptureMedia extends AppCompatActivity {
         }
     }
 
+    public void mediaTextView(View view){
+        setContentView(R.layout.activity_text);
+    }
+/*
     public void mediaText(String subject, String text) {
         Intent intent = new Intent(NoteIntents.ACTION_CREATE_NOTE)
                 .putExtra(NoteIntents.EXTRA_NAME, subject)
@@ -85,11 +92,6 @@ public class CaptureMedia extends AppCompatActivity {
             }
             if (textFile != null) {
                 File destination = new File(getExternalStorageDirectory() + "/BlackoutTracker/" + currentDateTimeString, textFile.getName());
-                //Uri photoURI = FileProvider.getUriForFile(this, "com.example.android.fileprovider", photoFile);
-                if (!destination.exists()) {
-                    destination.mkdirs();
-                    destination.mkdirs();
-                }
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(destination));
                 startActivityForResult(intent, 1);
                 intent = new Intent(this, HistoryInformation.class);
@@ -98,6 +100,35 @@ public class CaptureMedia extends AppCompatActivity {
             }
         }
     }
+*/
+public void mediaText(View view) {
+    File textFile = null;
+
+    try {
+        textFile = createTextFile();
+    } catch (IOException ex) {
+        //
+    }
+    if (textFile != null) {
+        File destination = new File(Environment.getExternalStorageDirectory() + "/BlackoutTracker/" + currentDateTimeString, textFile.getName());
+        EditText mEdit   = (EditText)findViewById(R.id.editText2);
+        //Data is user inputted string
+        String data = mEdit.getText().toString();
+        FileOutputStream fos = null;
+        try {
+            fos = new FileOutputStream(destination);
+            fos.write(data.getBytes());
+            fos.close();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        catch (Exception e) {
+            //
+        }
+        super.onBackPressed();
+    }
+}
 
     public void mediaVoice(View view) {
         Intent intent = new Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION);
@@ -110,11 +141,6 @@ public class CaptureMedia extends AppCompatActivity {
             }
             if (voiceFile != null) {
                 File destination = new File(getExternalStorageDirectory() + "/BlackoutTracker/" + currentDateTimeString, voiceFile.getName());
-                //Uri photoURI = FileProvider.getUriForFile(this, "com.example.android.fileprovider", photoFile);
-                if (!destination.exists()) {
-                    destination.mkdirs();
-                    destination.mkdirs();
-                }
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(destination));
                 startActivityForResult(intent, ACTIVITY_RECORD_SOUND);
                 intent = new Intent(this, HistoryInformation.class);

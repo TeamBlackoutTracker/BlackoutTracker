@@ -65,28 +65,28 @@ public final class R {
 	public static final class dimen {
 	}
 	public static final class drawable {
-		public static final int common_full_open_on_phone = 0x7f020053;
-		public static final int common_google_signin_btn_icon_dark = 0x7f020054;
-		public static final int common_google_signin_btn_icon_dark_disabled = 0x7f020055;
-		public static final int common_google_signin_btn_icon_dark_focused = 0x7f020056;
-		public static final int common_google_signin_btn_icon_dark_normal = 0x7f020057;
-		public static final int common_google_signin_btn_icon_dark_pressed = 0x7f020058;
-		public static final int common_google_signin_btn_icon_light = 0x7f020059;
-		public static final int common_google_signin_btn_icon_light_disabled = 0x7f02005a;
-		public static final int common_google_signin_btn_icon_light_focused = 0x7f02005b;
-		public static final int common_google_signin_btn_icon_light_normal = 0x7f02005c;
-		public static final int common_google_signin_btn_icon_light_pressed = 0x7f02005d;
-		public static final int common_google_signin_btn_text_dark = 0x7f02005e;
-		public static final int common_google_signin_btn_text_dark_disabled = 0x7f02005f;
-		public static final int common_google_signin_btn_text_dark_focused = 0x7f020060;
-		public static final int common_google_signin_btn_text_dark_normal = 0x7f020061;
-		public static final int common_google_signin_btn_text_dark_pressed = 0x7f020062;
-		public static final int common_google_signin_btn_text_light = 0x7f020063;
-		public static final int common_google_signin_btn_text_light_disabled = 0x7f020064;
-		public static final int common_google_signin_btn_text_light_focused = 0x7f020065;
-		public static final int common_google_signin_btn_text_light_normal = 0x7f020066;
-		public static final int common_google_signin_btn_text_light_pressed = 0x7f020067;
-		public static final int common_ic_googleplayservices = 0x7f020068;
+		public static final int common_full_open_on_phone = 0x7f020054;
+		public static final int common_google_signin_btn_icon_dark = 0x7f020055;
+		public static final int common_google_signin_btn_icon_dark_disabled = 0x7f020056;
+		public static final int common_google_signin_btn_icon_dark_focused = 0x7f020057;
+		public static final int common_google_signin_btn_icon_dark_normal = 0x7f020058;
+		public static final int common_google_signin_btn_icon_dark_pressed = 0x7f020059;
+		public static final int common_google_signin_btn_icon_light = 0x7f02005a;
+		public static final int common_google_signin_btn_icon_light_disabled = 0x7f02005b;
+		public static final int common_google_signin_btn_icon_light_focused = 0x7f02005c;
+		public static final int common_google_signin_btn_icon_light_normal = 0x7f02005d;
+		public static final int common_google_signin_btn_icon_light_pressed = 0x7f02005e;
+		public static final int common_google_signin_btn_text_dark = 0x7f02005f;
+		public static final int common_google_signin_btn_text_dark_disabled = 0x7f020060;
+		public static final int common_google_signin_btn_text_dark_focused = 0x7f020061;
+		public static final int common_google_signin_btn_text_dark_normal = 0x7f020062;
+		public static final int common_google_signin_btn_text_dark_pressed = 0x7f020063;
+		public static final int common_google_signin_btn_text_light = 0x7f020064;
+		public static final int common_google_signin_btn_text_light_disabled = 0x7f020065;
+		public static final int common_google_signin_btn_text_light_focused = 0x7f020066;
+		public static final int common_google_signin_btn_text_light_normal = 0x7f020067;
+		public static final int common_google_signin_btn_text_light_pressed = 0x7f020068;
+		public static final int common_ic_googleplayservices = 0x7f020069;
 	}
 	public static final class id {
 		public static final int adjust_height = 0x7f0d0043;
@@ -119,7 +119,7 @@ public final class R {
 		public static final int radio = 0x7f0d0075;
 		public static final int rfc822 = 0x7f0d004c;
 		public static final int standard = 0x7f0d0055;
-		public static final int text = 0x7f0d00b0;
+		public static final int text = 0x7f0d00b1;
 		public static final int text1 = 0x7f0d003b;
 		public static final int text2 = 0x7f0d003c;
 		public static final int thing_proto = 0x7f0d003d;

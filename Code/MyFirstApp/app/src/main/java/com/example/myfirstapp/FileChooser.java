@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.text.DateFormat;
+
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.ListActivity;
 import android.content.Intent;
@@ -59,7 +61,21 @@ public class FileChooser extends ListActivity {
                 }
                 else
                 {
-                    fls.add(new Item(ff.getName(),ff.length() + " Byte", date_modify, ff.getAbsolutePath(),"file_icon"));
+                    if(ff.getName().toLowerCase().endsWith(".jpg")){
+                        fls.add(new Item(ff.getName(),ff.length() + " Byte", date_modify, ff.getAbsolutePath(),"img_icon"));
+                    }
+                    else if(ff.getName().toLowerCase().endsWith(".mp4")){
+                        fls.add(new Item(ff.getName(),ff.length() + " Byte", date_modify, ff.getAbsolutePath(),"vid_icon"));
+                    }
+                    else if(ff.getName().toLowerCase().endsWith(".txt")){
+                        fls.add(new Item(ff.getName(),ff.length() + " Byte", date_modify, ff.getAbsolutePath(),"txt_icon"));
+                    }
+                    else if(ff.getName().toLowerCase().endsWith(".mp3")){
+                        fls.add(new Item(ff.getName(),ff.length() + " Byte", date_modify, ff.getAbsolutePath(),"aud_icon"));
+                    }
+                    else {
+                        fls.add(new Item(ff.getName(),ff.length() + " Byte", date_modify, ff.getAbsolutePath(),"file_icon"));
+                    }
                 }
             }
         }catch(Exception e)
@@ -70,7 +86,7 @@ public class FileChooser extends ListActivity {
         Collections.sort(fls);
         dir.addAll(fls);
         if(!f.getName().equalsIgnoreCase("sdcard"))
-            dir.add(0,new Item("..","Parent Directory","",f.getParent(),"directory_up"));
+            dir.add(0,new Item("Browse Your Existing Histories",f.getName(),"",f.getParent(),"directory_up"));
         adapter = new FileArrayAdapter(FileChooser.this,R.layout.file_view,dir);
         this.setListAdapter(adapter);
     }
@@ -79,9 +95,20 @@ public class FileChooser extends ListActivity {
         // TODO Auto-generated method stub
         super.onListItemClick(l, v, position, id);
         Item o = adapter.getItem(position);
-        if(o.getImage().equalsIgnoreCase("directory_icon")||o.getImage().equalsIgnoreCase("directory_up")){
+        if(o.getImage().equalsIgnoreCase("directory_icon")){
             currentDir = new File(o.getPath());
             fill(currentDir);
+        }
+        else if(o.getImage().equalsIgnoreCase("directory_up")){
+            if(o.getPath().endsWith("/0")) {
+                Intent intent = new Intent(this, HomeScreen.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+            }
+            else {
+                currentDir = new File(o.getPath());
+                fill(currentDir);
+            }
         }
         else
         {
@@ -90,11 +117,27 @@ public class FileChooser extends ListActivity {
     }
     private void onFileClick(Item o)
     {
-        //Toast.makeText(this, "Folder Clicked: "+ currentDir, Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent();
-        intent.putExtra("GetPath",currentDir.toString());
-        intent.putExtra("GetFileName",o.getName());
-        setResult(RESULT_OK, intent);
-        finish();
+        File url = new File(o.getPath());
+        Uri uri = Uri.fromFile(url);
+
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        if (url.toString().contains(".jpg")) {
+            // IMAGE
+            intent.setDataAndType(uri, "image/jpeg");
+        }
+        else if (url.toString().contains(".mp4")) {
+            // VIDEO
+            intent.setDataAndType(uri, "video/*");
+        }
+        else if (url.toString().contains(".txt")) {
+            // TEXT
+            intent.setDataAndType(uri, "text/plain");
+        }
+        else if (url.toString().contains(".mp3")) {
+            // VOICE
+            intent.setDataAndType(uri, "audio/x-wav");
+        }
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 }
