@@ -11,13 +11,20 @@ import java.util.Collections;
 import java.util.List;
 import java.text.DateFormat;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Environment;
+import android.util.Log;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import static android.os.Environment.getExternalStorageDirectory;
 
@@ -25,10 +32,15 @@ public class FileChooser extends ListActivity {
 
     private File currentDir;
     private FileArrayAdapter adapter;
+    String path = "";
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         File currentDir = new File(Environment.getExternalStorageDirectory(),"BlackoutTracker");
+        if(currentDir.toString().endsWith("/BlackoutTracker")) {
+            path = currentDir.toString().substring(0, currentDir.getPath().length() - 16);
+        }
         fill(currentDir);
     }
     private void fill(File f)
@@ -90,17 +102,29 @@ public class FileChooser extends ListActivity {
         adapter = new FileArrayAdapter(FileChooser.this,R.layout.file_view,dir);
         this.setListAdapter(adapter);
     }
+
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         // TODO Auto-generated method stub
         super.onListItemClick(l, v, position, id);
         Item o = adapter.getItem(position);
+
+        l.setOnItemLongClickListener( new AdapterView.OnItemLongClickListener
+                (){
+            @Override
+            public boolean onItemLongClick(AdapterView<?> av, View v, int pos, long id) {
+                onLongListItemClick(v,pos,id);
+                return true;
+            }
+        });
+
+
         if(o.getImage().equalsIgnoreCase("directory_icon")){
             currentDir = new File(o.getPath());
             fill(currentDir);
         }
         else if(o.getImage().equalsIgnoreCase("directory_up")){
-            if(o.getPath().endsWith("/0")) {
+            if(o.getPath().toString().equals(path)) {
                 Intent intent = new Intent(this, HomeScreen.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent);
@@ -115,6 +139,7 @@ public class FileChooser extends ListActivity {
             onFileClick(o);
         }
     }
+
     private void onFileClick(Item o)
     {
         File url = new File(o.getPath());
@@ -139,5 +164,48 @@ public class FileChooser extends ListActivity {
         }
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
+    }
+
+    private void altertDelete(int pos)
+    {
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        alertDialogBuilder.setMessage("Would you like to delete this history?");
+        final int fPos = pos;
+        alertDialogBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Item o = adapter.getItem(fPos);
+                File dir = new File(currentDir.getAbsolutePath() + "/" + o.getName());
+                Log.d("GETPATH", " " + dir);
+                Log.d("GETNAME", " " + o.getName());
+                rmDirWContents(dir);
+                fill(currentDir);
+            }
+        });
+
+        alertDialogBuilder.setNegativeButton("No",new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface arg0, int arg1) {
+                Toast.makeText(FileChooser.this,"History is being kept.", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+    }
+
+    private void rmDirWContents(File d) {
+        if (d.isDirectory())
+            for (File child : d.listFiles())
+                rmDirWContents(child);
+
+        d.delete();
+    }
+
+    protected void onLongListItemClick(View v, int pos, long id) {
+        Item o = adapter.getItem(pos);
+        if(o.getImage().equalsIgnoreCase("directory_icon")){
+            altertDelete(pos);
+        }
     }
 }

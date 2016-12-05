@@ -24,6 +24,8 @@ import static android.os.Environment.getExternalStorageDirectory;
 
 public class HistoryInformation extends AppCompatActivity {
     public static final int MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE = 1;
+    CountDownTimer cdT1;
+    CountDownTimer cdT2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +60,7 @@ public class HistoryInformation extends AppCompatActivity {
 
         final TextView currTime = (TextView) findViewById(R.id.remainder);
 
-        new CountDownTimer(hist_Dur*3600*1000,1000){
+        cdT1 = new CountDownTimer(hist_Dur*3600*1000,1000){
             @Override
             public void onTick(long millisUntilFinished) {
                 long seconds = millisUntilFinished / 1000;
@@ -75,13 +77,14 @@ public class HistoryInformation extends AppCompatActivity {
 
         final TextView currInt = (TextView) findViewById(R.id.nextint);
 
-        new CountDownTimer(hist_Intv*60*1000,1000){
+        cdT2 = new CountDownTimer(hist_Intv*60*1000,1000){
             @Override
             public void onTick(long millisUntilFinished) {
                 long seconds = millisUntilFinished / 1000;
                 currInt.setText(String.format("%02d:%02d", (seconds % 3600) / 60, (seconds % 60)));
 
                 if(currTime.getText() == "Finished"){
+                    this.cancel();
                     finish();
                 }
             }
@@ -180,6 +183,10 @@ public class HistoryInformation extends AppCompatActivity {
                 Intent intent = new Intent(HistoryInformation.this, HomeScreen.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent);
+                cdT1.cancel();
+                cdT1 = null;
+                cdT2.cancel();
+                cdT2 = null;
                 finish();
             }
         });
