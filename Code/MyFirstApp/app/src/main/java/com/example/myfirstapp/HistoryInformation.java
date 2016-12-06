@@ -32,6 +32,7 @@ public class HistoryInformation extends AppCompatActivity {
         setContentView(R.layout.activity_history);
         ((Globals) this.getApplication()).setDurationFin(false);
 
+
         String currentDateTimeString = DateFormat.getDateInstance().format(new Date());
 
         Integer hist_Dur = ((Globals) this.getApplication()).getHistory().getDuration();
@@ -42,8 +43,11 @@ public class HistoryInformation extends AppCompatActivity {
         TextView currDuration = (TextView) findViewById(R.id.history_duration);
         TextView currInterval = (TextView) findViewById(R.id.frequency);
         currDate.setText(currentDateTimeString);
-
         File destination = new File(getExternalStorageDirectory() + "/BlackoutTracker/" + currentDateTimeString);
+        if(destination.isDirectory()){
+            destination = new File(getExternalStorageDirectory() + "/BlackoutTracker/" + currentDateTimeString+ "_"+ ((Globals) this.getApplication()).getCount());
+            ((Globals) this.getApplication()).increaseCount();
+        }
         destination.mkdirs();
         //mkFolder(currentDateTimeString);
         if(hist_Dur == 1) {

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Dec 04 20:34:16 EST 2016
+#Mon Dec 05 23:19:53 EST 2016
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_fade_out.xml
@@ -35,7 +35,7 @@
 217.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_spinner.xml
 40.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png
 245.set=ANDROID_RESOURCE
-269.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_ab_back_material.xml
+269.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png
 186.set=ANDROID_RESOURCE
 115.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_tab_indicator_material.xml
 49.set=ANDROID_RESOURCE
@@ -49,6 +49,7 @@
 173.base=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_
 95.set=ANDROID_RESOURCE
 100.set=ANDROID_RESOURCE
+271.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png
 206.set=ANDROID_RESOURCE
 0.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_dialog_title_material.xml
 252.set=ANDROID_RESOURCE
@@ -457,6 +458,7 @@
 142.base=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_
 198.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png
 121.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+271.base=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_
 0.base=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_
 250.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png
 173.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_voice_search_api_material.xml
@@ -486,7 +488,7 @@
 181.base=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_
 121.set=ANDROID_RESOURCE
 227.set=ANDROID_RESOURCE
-count=271
+count=272
 27.base=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_
 77.set=ANDROID_RESOURCE
 79.base=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -716,6 +718,7 @@ count=271
 242.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\notification_template_part_time.xml
 165.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_big_media.xml
 196.base=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_
+271.set=ANDROID_RESOURCE
 140.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_media_cancel_action.xml
 171.base=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_
 75.set=ANDROID_RESOURCE
@@ -775,7 +778,7 @@ count=271
 216.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_item_separator.xml
 139.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xxhdpi-v4\\ic_launcher.png
 235.set=ANDROID_RESOURCE
-268.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png
+268.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_voice.xml
 176.set=ANDROID_RESOURCE
 114.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ratingbar_indicator_material.xml
 39.set=ANDROID_RESOURCE
@@ -787,7 +790,7 @@ count=271
 141.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\aud_icon.png
 172.base=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_
 85.set=ANDROID_RESOURCE
-270.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png
+270.file=C\:\\Users\\Jebreiel\\Documents\\BlackoutTracker\\Code\\MyFirstApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_ab_back_material.xml
 242.set=ANDROID_RESOURCE
 183.set=ANDROID_RESOURCE
 46.set=ANDROID_RESOURCE

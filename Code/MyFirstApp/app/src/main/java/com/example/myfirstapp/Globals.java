@@ -22,6 +22,7 @@ public class Globals extends Application {
     private NumberPicker np;
     private NumberPicker np2;
 
+
     public NumberPicker getNp() {
         return np;
     }
@@ -39,6 +40,18 @@ public class Globals extends Application {
     }
 
     private Boolean durationFin = false;
+
+    private Integer count = 0;
+
+    public Integer getCount(){
+        return count;
+    }
+
+    public void increaseCount(){
+        count++;
+    }
+
+
 
     public Boolean getDurationFin() { return durationFin; }
 
