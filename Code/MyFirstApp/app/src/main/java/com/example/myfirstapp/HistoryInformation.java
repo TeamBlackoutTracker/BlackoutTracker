@@ -51,9 +51,9 @@ public class HistoryInformation extends AppCompatActivity {
         destination.mkdirs();
         //mkFolder(currentDateTimeString);
         if(hist_Dur == 1) {
-            currDuration.setText(String.valueOf(hist_Dur) + " min");
+            currDuration.setText(String.valueOf(hist_Dur) + " hour");
         }else{
-            currDuration.setText(String.valueOf(hist_Dur) + " mins");
+            currDuration.setText(String.valueOf(hist_Dur) + " hours");
         }
 
         if(hist_Intv == 1) {

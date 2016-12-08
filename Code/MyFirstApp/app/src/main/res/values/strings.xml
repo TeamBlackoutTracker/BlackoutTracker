@@ -11,7 +11,7 @@
     <string name="description">Please select the time duration, frequency of media capture, and media types you wish to record.</string>
     <string name="setup_history">Setup your new history</string>
     <string name="duration">Duration:</string>
-    <string name="hours">hours</string>
+    <string name="hours">hour(s)</string>
     <string name="mins">mins</string>
     <string name="create_button">Create</string>
     <string name="current_date">Date</string>

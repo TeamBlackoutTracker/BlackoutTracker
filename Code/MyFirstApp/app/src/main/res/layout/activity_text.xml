@@ -8,14 +8,9 @@
     tools:context="com.example.myfirstapp.CaptureMedia"
     android:weightSum="1">
 
-    <TextView
-        android:text="Enter Text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
     <EditText
         android:layout_width="match_parent"
-        android:inputType="textMultiLine"
+        android:inputType="textMultiLine|textCapSentences"
         android:text="Enter Your Message"
         android:ems="10"
         android:id="@+id/editText2"
@@ -23,7 +18,7 @@
         android:selectAllOnFocus="true"
         android:scrollHorizontally="false"
         android:minLines="1"
-        android:maxLines="20"/>
+        android:maxLines="12"/>
 
     <Button
         android:text="Done"
